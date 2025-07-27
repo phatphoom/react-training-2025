@@ -84,10 +84,7 @@ function Shop() {
   const [price, setPrice] = useState(0);
   const [limit, setLimit] = useState(books.length);
   const [cart, setCart] = useState([]);
-  const handleCart = (e) => {
-    setCart([...cart, e]);
-  };
-  console.log(cart);
+
   let total = 0;
   const bookList = books
     .filter((book) => book.price > price)
@@ -247,5 +244,3 @@ function Shop() {
   );
 }
 export default Shop;
-// delete each cart in array ลบแต่ละ element ใน array
-// เลือกสิ้นที่จะลบที่เราสามารถเลือกได้
