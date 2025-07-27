@@ -1,0 +1,58 @@
+h2 {
+  color: #ee23d3;
+}
+
+h2:hover {
+  background-color: salmon;
+  cursor: pointer;
+  color: white;
+  border-radius: 8px;
+}
+
+#email {
+  text-decoration: underline;
+}
+
+.box {
+  border: 2px solid lawngreen;
+}
+.yellow-bg {
+  background-color: blue;
+  color: white;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: skyblue;
+  color: black;
+}
+.btn:hover {
+  cursor: pointer;
+  color: white;
+}
+.add {
+  background-color: green;
+}
+.reset {
+  background-color: red;
+}
+.delete {
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  width: 800px;
+}
+.countStr {
+  display: flex;
+  /* height: 30px; */
+  align-items: center;
+  gap: 10px;
+}
+.countStr input {
+  height: fit-content;
+}
